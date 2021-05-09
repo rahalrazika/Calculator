@@ -1,13 +1,14 @@
-import './App.css';
+import '../App.css';
+import ButtonPanel from './buttonPanel';
+import Display from './display';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <p>
-          Hello world
-        </p>
+        <Display />
+        <ButtonPanel />
 
       </header>
     </div>
