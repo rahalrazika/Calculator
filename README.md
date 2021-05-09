@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # React-Calculator 
 
-This project consisted of building a calculator using react 
+This project consisted of building a calculator using react.
 
 ## Screenshots
 ![Screenshot]()
