@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({ result }) => {
-  <h1>
-    {result}
-  </h1>;
-};
+const Display = ({ result }) => (
+  <div>
+    <h1>
+      {result}
+    </h1>
+  </div>
+);
 
 Display.propTypes = {
   result: PropTypes.string,

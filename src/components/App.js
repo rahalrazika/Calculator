@@ -5,12 +5,10 @@ import Display from './display';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-        <Display />
-        <ButtonPanel />
+      <Display />
+      <ButtonPanel />
 
-      </header>
     </div>
   );
 }
