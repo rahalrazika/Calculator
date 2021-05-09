@@ -16,7 +16,7 @@ This project consisted of building a calculator using react.
 
 
 ## Live Demo 🚀
-[react-Calculator](https://calculator-react-fp.herokuapp.com/)
+[react-Calculator](https://react-calculator-fp.herokuapp.com/)
 
 ## Getting Started 💻
 
