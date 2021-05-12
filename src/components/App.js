@@ -2,15 +2,13 @@ import '../App.css';
 import ButtonPanel from './buttonPanel';
 import Display from './display';
 
-function App() {
-  return (
-    <div className="App">
+const App = () => (
+  <div className="App">
 
-      <Display />
-      <ButtonPanel />
+    <Display />
+    <ButtonPanel />
 
-    </div>
-  );
-}
+  </div>
+);
 
 export default App;
