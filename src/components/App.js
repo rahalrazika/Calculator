@@ -1,16 +1,15 @@
 import '../App.css';
 import ButtonPanel from './buttonPanel';
 import Display from './display';
+import calculate from '../logic /calculate';
 
-function App() {
-  return (
-    <div className="App">
+const App = () => (
+  <div className="App">
 
-      <Display />
-      <ButtonPanel />
+    <Display />
+    <ButtonPanel onClick={calculate} />
 
-    </div>
-  );
-}
+  </div>
+);
 
 export default App;
