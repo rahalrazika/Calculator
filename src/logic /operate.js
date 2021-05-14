@@ -11,7 +11,7 @@ const operate = (numberOne, numberTwo, operation) => {
   } else if (operation === 'X') {
     result = Big(numberOne).times(Big(numberTwo));
   } else if (operation === '%') {
-    result = (Big(numberOne).times(Big(numberTwo))) / 100;
+    result = Big(numberOne).mod(Big(numberTwo));
   } else {
     result = '';
   }
