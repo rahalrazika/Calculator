@@ -15,6 +15,6 @@ const operate = (numberOne, numberTwo, operation) => {
   } else {
     result = '';
   }
-  return result;
+  return result.toString();
 };
 export default operate;

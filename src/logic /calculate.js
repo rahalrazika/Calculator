@@ -10,7 +10,17 @@ const calculate = (dataObj, buttonName) => {
     calcData.total *= '';
     calcData.next *= '';
   } else if (buttonName === '+' || buttonName === '-' || buttonName === '/' || buttonName === '%' || buttonName === 'X') {
-    calcData.total = operate(calcData.next, calcData.total, calcData.operation);
+    calcData.next = operate(
+      Number(calcData.next),
+      Number(calcData.total),
+      Number(calcData.operation),
+    );
+  } else if (buttonName === '=') {
+    calcData.total = operate(
+      Number(calcData.next),
+      Number(calcData.total),
+      Number(calcData.operation),
+    );
   } else {
     calcData = '';
   }

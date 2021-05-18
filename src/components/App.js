@@ -10,20 +10,28 @@ class App extends React.Component {
     this.state = {
       total: null,
       next: null,
-      operaton: null,
+      operation: null,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = (buttonName) => {
-    this.setState((prevState) => calculate(prevState, buttonName));
+  handleClick(buttonName) {
+    const { next, total, operation } = this.state;
+    const prevState = { next, total, operation };
+    const result = calculate(prevState, buttonName);
+    this.setState({
+      total: result.total,
+      next: result.next,
+      operation: result.operation,
+    });
   }
 
   render() {
+    const { next, total } = this.state;
     return (
       <div className="App">
-        <Display />
-        <ButtonPanel onClick={this.handleClick} />
+        <Display total={total} next={next} />
+        <ButtonPanel clickHandler={this.handleClick} />
 
       </div>
     );
