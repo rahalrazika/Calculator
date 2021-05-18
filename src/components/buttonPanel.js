@@ -10,28 +10,27 @@ const ButtonPanel = ({ clickHandler }) => {
     ['0', '.', '='],
   ];
 
-  const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div>
       <div>
         {buttonNames[0].map((buttonName) => (
-          <Button name={buttonName} key={buttonName} onclick={handleClick} />))}
+          <Button name={buttonName} key={buttonName} clickHandler={clickHandler} />))}
       </div>
       <div>
         {buttonNames[1].map((buttonName) => (
-          <Button name={buttonName} key={buttonName} onclick={handleClick} />))}
+          <Button name={buttonName} key={buttonName} clickHandler={clickHandler} />))}
       </div>
       <div>
         {buttonNames[2].map((buttonName) => (
-          <Button name={buttonName} key={buttonName} onclick={handleClick} />))}
+          <Button name={buttonName} key={buttonName} clickHandler={clickHandler} />))}
       </div>
       <div>
         {buttonNames[3].map((buttonName) => (
-          <Button name={buttonName} key={buttonName} onclick={handleClick} />))}
+          <Button name={buttonName} key={buttonName} clickHandler={clickHandler} />))}
       </div>
       <div>
         {buttonNames[4].map((buttonName) => (
-          <Button name={buttonName} key={buttonName} onclick={handleClick} />))}
+          <Button name={buttonName} key={buttonName} clickHandler={clickHandler} />))}
       </div>
     </div>
   );
