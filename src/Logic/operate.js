@@ -6,8 +6,9 @@ const operate = (numberOne, numberTwo, operation) => {
     result = Big(numberOne).plus(Big(numberTwo));
   } else if (operation === '-') {
     result = Big(numberOne).minus(Big(numberTwo));
-  } else if (operation === '/') {
-    result = Big(numberOne).div(Big(numberTwo));
+  } else if (operation === '÷') {
+    if ((Big(numberTwo)).eq(0)) return 'Syntax ERROR';
+    result = Big(numberOne).div(Big(numberTwo)).toString();
   } else if (operation === 'X') {
     result = Big(numberOne).times(Big(numberTwo));
   } else if (operation === '%') {
@@ -15,6 +16,6 @@ const operate = (numberOne, numberTwo, operation) => {
   } else {
     result = '';
   }
-  return result;
+  return result.toString();
 };
 export default operate;
