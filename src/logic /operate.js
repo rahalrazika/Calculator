@@ -6,7 +6,7 @@ const operate = (numberOne, numberTwo, operation) => {
     result = Big(numberOne).plus(Big(numberTwo));
   } else if (operation === '-') {
     result = Big(numberOne).minus(Big(numberTwo));
-  } else if (operation === '/') {
+  } else if (operation === '÷') {
     result = Big(numberOne).div(Big(numberTwo));
   } else if (operation === 'X') {
     result = Big(numberOne).times(Big(numberTwo));
