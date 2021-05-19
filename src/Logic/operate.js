@@ -7,7 +7,8 @@ const operate = (numberOne, numberTwo, operation) => {
   } else if (operation === '-') {
     result = Big(numberOne).minus(Big(numberTwo));
   } else if (operation === '÷') {
-    result = Big(numberOne).div(Big(numberTwo));
+    if ((Big(numberTwo)).eq(0)) return 'Syntax ERROR';
+    result = Big(numberOne).div(Big(numberTwo)).toString();
   } else if (operation === 'X') {
     result = Big(numberOne).times(Big(numberTwo));
   } else if (operation === '%') {

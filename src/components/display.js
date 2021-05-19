@@ -10,11 +10,12 @@ const Display = ({ result }) => (
 );
 
 Display.propTypes = {
-  result: {
-    total: PropTypes.string,
-    next: PropTypes.string,
-    operation: PropTypes.string,
-  },
+
+  result: PropTypes.instanceOf(Object),
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
+
 };
 
 Display.defaultProps = {
@@ -23,5 +24,8 @@ Display.defaultProps = {
     next: '',
     operation: '',
   },
+  total: '',
+  next: '',
+  operation: '',
 };
 export default Display;

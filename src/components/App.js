@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import ButtonPanel from './buttonPanel';
 import Display from './display';
-import calculate from '../logic /calculate';
+import calculate from '../Logic/calculate';
 
 class App extends React.Component {
   constructor(props) {
