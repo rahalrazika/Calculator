@@ -1,3 +1,6 @@
+#root {
+  background: #DACCC3;
+}
 .App {
   text-align: center;
   width: 308px;
@@ -6,6 +9,7 @@
   color: white;
   border-radius: 50px;
   padding: 20px;
+  margin: 0 auto;
 
 }
 .button {
