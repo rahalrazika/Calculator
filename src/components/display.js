@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
-  <div>
+  <div className="display">
     <h1>
       {`${result.total} ${result.operation} ${result.next}`}
     </h1>

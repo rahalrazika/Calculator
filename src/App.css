@@ -1,3 +1,45 @@
+#root {
+  background: #DACCC3;
+}
 .App {
   text-align: center;
+  width: 308px;
+  height: 600px;
+  background: #1C1C1C;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+.button {
+background: #505050;
+width: 62px;
+height: 65px;
+border-radius: 50%;
+font-size: 25px;
+cursor: pointer;
+color: white;
+margin: 7px;
+}
+.display {
+ font-size: 41px;
+ height: 8rem;
+ margin-bottom: 20px;
+ font-weight: 300;
+ text-align: right;
+
+}
+.button.equal {
+  width: 129px;
+  background-color:#FF9500;
+}
+.button.color {
+  background-color:#FF9500;
+}
+.button.greyColor {
+  background-color: #D4D4D2;
+}
+.button:hover {
+  background-color: #DED8D1;
 }

@@ -4,7 +4,7 @@
 This project consisted of building a calculator using react.
 
 ## Screenshots
-![Screenshot]()
+![Screenshot](Screenshot.png)
 
 
 
@@ -16,7 +16,7 @@ This project consisted of building a calculator using react.
 
 
 ## Live Demo 🚀
-[react-Calculator](https://react-calculator-fp.herokuapp.com/)
+[react-Calculator](https://awsome-calc.herokuapp.com/)
 
 ## Getting Started 💻
 
