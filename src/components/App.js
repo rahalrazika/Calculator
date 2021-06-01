@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import ButtonPanel from './buttonPanel';
 import Display from './display';
 import calculate from '../Logic/calculate';
 
 const App = () => {
-  const [state, setState] = useState({ next: '', total: '', operation: '' });
+  const [state, setState] = useState({ next: '', total: 0, operation: '' });
   const { next } = state;
   const { total } = state;
   const { operation } = state;
