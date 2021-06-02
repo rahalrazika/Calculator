@@ -4,7 +4,7 @@
 This project consisted of building a calculator using react.
 
 ## Screenshots
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot.png)
 
 
 

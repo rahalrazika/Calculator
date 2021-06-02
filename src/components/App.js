@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../App.css';
+import '../style/App.css';
 import ButtonPanel from './buttonPanel';
 import Display from './display';
 import calculate from '../Logic/calculate';
@@ -16,10 +16,12 @@ const App = () => {
 
   const result = { next, total, operation };
   return (
-    <div className="App">
-      <Display result={result} />
-      <ButtonPanel clickHandler={handleClick} />
+    <div>
+      <div className="App">
+        <Display result={result} />
+        <ButtonPanel clickHandler={handleClick} />
 
+      </div>
     </div>
   );
 };

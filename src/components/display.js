@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Display = ({ result }) => (
   <div className="display">
-    <h1>
+    <p>
       {`${result.total} ${result.operation} ${result.next}`}
-    </h1>
+    </p>
   </div>
 );
 
