@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+#root {
+  background-color: #ffecd2;
+  background-image: linear-gradient(180deg, #ffecd2 25%, #ffe32c 100%);
+  padding: 0;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 305px;
+  height: 500px;
+  background: #1c1c1c;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.button {
+  background: #505050;
+  width: 62px;
+  height: 65px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  margin: 7px;
+}
+
+.display {
+  font-size: 36px;
+  height: 3rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.button.equal {
+  width: 129px;
+  background-color: #ff9500;
+}
+
+.button.color {
+  background-color: #ff9500;
+}
+
+.button.greyColor {
+  background-color: #d4d4d2;
+}
+
+.button:hover {
+  background-color: #ded8d1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #1c1c1c;
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffe32c;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.main-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.quote-text {
+  font-family: 'Special Elite', cursive;
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote::before {
+  content: '“';
+  left: -5rem;
+  top: -2rem;
+  color: #3f3f5a;
+}
+
+blockquote::after {
+  content: '”';
+  right: -5rem;
+  bottom: 1rem;
+  color: #3f3f5a;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
+}

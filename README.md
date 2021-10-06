@@ -4,7 +4,7 @@
 This project consisted of building a calculator using react.
 
 ## Screenshots
-![Screenshot]()
+![Screenshot](screenshot.png)
 
 
 
@@ -16,7 +16,7 @@ This project consisted of building a calculator using react.
 
 
 ## Live Demo 🚀
-[react-Calculator](https://react-calculator-fp.herokuapp.com/)
+[react-Calculator](https://awsome-calc.herokuapp.com/)
 
 ## Getting Started 💻
 
@@ -35,6 +35,12 @@ $ git clone git@github.com:rahalrazika/Calculator.git
  Run `npm install` to install all the dependencies and packages.
 
  Run `npm start` to start the app.
+ ## Testing 
+- To run the tests, execute
+```
+npm run test 
+
+```
 
 ## Author
 
